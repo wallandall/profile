@@ -1,0 +1,331 @@
+<!-- Index-->
+<div class="container-fluid"  id="index">
+  <div class="home">
+    <div class="row wraper ">
+      <div class="col-md-4 home-col2 ">
+        <%= image_tag("cwall.jpg", alt: "Christopher Wall",  class: "rotate-vert-center rounded-circle", id: "home-img") %>
+      </div>
+      <div class="col-md-8 home-col1">
+        <div class="text-box">
+          <h1 class="heading-primary">
+            <span class="heading-primary-main dark-blue">
+              Christopher
+            </span>
+            <span class="heading-primary-sub light-blue">
+              Wall
+            </span>
+          </h1>
+          <h4 class="home-text tracking-in-contract-bck">Translating ideas into web</h4>
+        </div>
+        <div class="arrow bounce">
+          <a href="#about" ><i class="fa fa-chevron-down fa-3x"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--About -->
+<div class="container-fluid"  id="about">
+  <div class="about">
+    <div class="row wraper-min-height">
+      <div class="col-md-4 anchor about-col2">
+        <h1 class="dark-blue">About Me</h1>
+        <h1 class="light-blue">Introduction</h1>
+        <p>
+          <strong>I am an enthusiastic I.T. professional</strong> with a strong technical background
+          and over 15 years proven experience in managing and leading successful and
+          productive teams in the development, implementation and support of complex systems. I am quick to grasp new ideas and concepts, and to develop
+          innovative and creative solutions to problems. I am able to work well on my
+          own initiative as well as motivate and lead teams in order to meet the tightest project deadlines.
+        </p>
+
+        <span class="modal-button" tabindex="0" data-toggle="tooltip" title="Download CV">
+          <button class="btn btn-primary " data-toggle="modal" data-target=".cv-modal">Download My CV</button>
+        </span>
+      </div><!-- End col2 -->
+      <div class="col-md-8 anchor about-col1">
+        <h1 class="dark-blue">Skills</h1>
+        <div class="row">
+          <div class="col-md-6 skills">
+            Project Management
+            <div class="skill-container">
+              <div class="skill skill-width-85">&nbsp;</div>
+            </div>
+          </div>
+          <div class="col-md-6 skills">
+            Agile Principles and Practice
+            <div class="skill-container">
+              <div class="skill skill-width-75">&nbsp;</div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 skills">
+            HTML
+            <div class="skill-container">
+              <div class="skill skill-width-80">&nbsp;</div>
+            </div>
+          </div>
+          <div class="col-md-6 skills">
+            CSS
+            <div class="skill-container">
+              <div class="skill skill-width-70">&nbsp;</div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 skills">
+            JavaScript
+            <div class="skill-container">
+              <div class="skill skill-width-70">&nbsp;</div>
+            </div>
+          </div>
+          <div class="col-md-6 skills">
+            Angular
+            <div class="skill-container">
+              <div class="skill skill-width-65">&nbsp;</div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 skills">
+            Ruby
+            <div class="skill-container">
+              <div class="skill skill-width-75">&nbsp;</div>
+            </div>
+          </div>
+          <div class="col-md-6 skills">
+            Ruby on Rails
+            <div class="skill-container">
+              <div class="skill skill-width-85">&nbsp;</div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 skills">
+            PHP
+            <div class="skill-container">
+              <div class="skill skill-width-65">&nbsp;</div>
+            </div>
+          </div>
+          <div class="col-md-6 skills">
+            Linux
+            <div class="skill-container">
+              <div class="skill skill-width-50">&nbsp;</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!--End About-->
+<!-- large modal -->
+<div class="modal fade cv-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Curriculum vitae</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <object id="modal-embed" data="docs/cv.pdf" >
+              Your browser does not support PDF's, <a href="docs/cv.pdf">click here to download file.</a>
+            </object>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!-- end large modal -->
+
+<!-- Work1 -->
+<div class="container-fluid anchor " id="projects" >
+  <h1 class="dark-blue">Projects</h1>
+  <div class="row" id="work1-images">
+  </div>
+</div><!-- End Work 1 -->
+
+<!-- Contact -->
+<div class="container-fluid anchor contact wraper-min-height" id="contact">
+  <div class="row ">
+    <div class="col-md contact-1">
+      <h1 >Contact Me</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 col-sm contact-2">
+      <div class="card mb-4 opacity">
+        <div class="card-body">
+          <div id="map"></div>
+          <h3>Get In Touch</h3>
+          <p>...I look forward to working with you.</p>
+          <h4><i class="fas fa-envelope"></i> Email Address</h4>
+          <p><a href="mailto:wallandall@gmail.com"> wallandall@gmail.com</a></p>
+          <h4><i class="fas fa-phone"></i> Telephone Number</h4>
+          <p>+47 173 3431897</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-8 col-sm contact3">
+      <form class="" action="index.html" method="post">
+        <div class="card  mb-4 opacity">
+          <div class="card-body">
+            <h3 class="text-center">Please fill out this form to contact me</h3>
+            <hr>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="name">*Your Name</label>
+                  <input id="name" type="text" class="form-control" placeholder="First Name" required="required" name="name" title="Enter your name">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="surname">*Your Surname</label>
+                  <input id="surname" type="text" class="form-control" placeholder="Last Name" required="required" name="surnmae" title="Enter your surname">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="email">*Your Email Address</label>
+                  <input id="email" type="email" class="form-control" placeholder="Email" required="required" name="email" title="Enter your email address">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="contact-number">Your Contact Number</label>
+                  <input id="contact-number" type="text" class="form-control" placeholder="Contact Number" name="tel" title="Enter your contact number">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label for="message-box">*Your Message</label>
+                  <textarea id="message-box" class="form-control" cols="40" rows="5" placeholder="Message" id="message-box" required="required" name="message" title="Enter your message"></textarea>
+                </div>
+                <p id="char-count"></p>
+                <p id="visible-comment"></p>
+              </div>
+              <div class="col-md-12">
+                <input type="submit" class="btn btn-outline-primary btn-block" id="submit-button">
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</div><!-- End Contact -->
+
+<!-- FAQ -->
+<div class="container-fluid anchor" id="faq">
+  <div class="header">
+    <h1>Frequently Asked Questions</h1>
+  </div>
+  <div class="row">
+    <div class="col-md-5">
+      <h1>FAQ</h1>
+      <p>
+        In today's fast past world, technology is the centre of the modern
+        organisations and the technologies you chose can impact on your company in a positive or negative way.
+      </p>
+      <p>
+        I believe in order to be successful, it is important to build custom solutions based on the individual needs of my customers.
+        <a href="#contact">Get in touch to find out how I can help you choose the right solution. </a>
+      </p>
+    </div>
+    <div class="col-md-7 faq">
+      <div id="accordion">
+        <div class="card border-0">
+          <div class="card-header border-bottom" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <i class="fas fa-angle-down"></i>
+                My Services
+              </button>
+            </h5>
+          </div>
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              <p>No matter how big or small, I help my customers succeed by building custom solutions for their individual needs.</p>
+              <p>I achieve this by offering the following services:</p>
+              <div class="row">
+                <div class="col-md-6">
+                  <h3>Consulting</h3>
+                  <p>
+                    Understanding the problem and breaking it down into an understandable solution is not always easy. I help my customers
+                    understand their requirements and define possible solutions.
+                  </p>
+                </div>
+                <div class="col-md-6">
+                  <h3>Project Management</h3>
+                  <p>
+                    Managing the development and implementation of a product can be a complex task. I help
+                    my customers deliver their solutions on time and on budget using both traditional and agile approaches to project management.
+                  </p>
+                </div>
+                <div class="col-md-6">
+                  <h3>Software Development</h3>
+                  <p>
+                    I develop my solutions based on the industry best practices and latest technologies. To see some of my latest projects feel
+                    free to view my <a href="#work1">Portfolio.</a>
+                  </p>
+                </div>
+                <div class="col-md-6">
+                  <h3>Web Hosting</h3>
+                  <p>
+                    I take the complexity out of hosting your solutions by offering a simple platform optimised for the
+                    technologies I work with. If you are looking at hosting your own solutions I can assist with setting up a secure environment
+                    for your applications.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card border-0">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <i class="fas fa-angle-down"></i>
+                My Process
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+              <p>
+                My solutions are developed using an agile approach delivering a working product in short increments.
+                This allows me to design, develop and deploy solutions  that are of value to my customers
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card border-0">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <i class="fas fa-angle-down"></i>
+                My Rewards
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+              <p>I believe it is important to offer quality services and partner with my customers to build long term relationships.</p>
+              <p>
+                In addition to the value I offer my customers with my products and services, my customers can subscribe to a rewards program
+                where they can further benefit from referrals or repeat business.
+                <a href="#contact">Get in touch to find out about our rewards program</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!-- End FAQ -->
